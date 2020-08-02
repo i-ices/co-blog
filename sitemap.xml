@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>io.ices.fun/2020/08/02/imgAddTest/</loc>
+    
+    <lastmod>2020-08-02T07:49:31.642Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>io.ices.fun/categories/index.html</loc>
     
     <lastmod>2020-08-02T07:34:15.682Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>io.ices.fun/tags/index.html</loc>
     
     <lastmod>2020-08-02T07:33:49.699Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>io.ices.fun/2020/08/02/imgAddTest/</loc>
-    
-    <lastmod>2020-08-02T07:18:29.828Z</lastmod>
     
   </url>
   

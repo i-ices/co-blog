@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="io.ices.fun/"/>
-  <updated>2020-08-02T07:18:29.828Z</updated>
+  <updated>2020-08-02T07:49:31.642Z</updated>
   <id>io.ices.fun/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="io.ices.fun/2020/08/02/imgAddTest/"/>
     <id>io.ices.fun/2020/08/02/imgAddTest/</id>
     <published>2020-08-02T03:24:14.000Z</published>
-    <updated>2020-08-02T07:18:29.828Z</updated>
+    <updated>2020-08-02T07:49:31.642Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;这是我的第一篇博客 ，其实在这之前我还创建过一个博客，不过觉得那个博客不好，感觉不是那么的好看和实用&lt;a href=&quot;http://m.ices.fun/&quot;&gt;另一个博客&lt;/a&gt;，&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/.fun/2020/08//hello-word-01.png&quot; alt=&quot;博客图片&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/02/imgAddTest/hello-word-01.png&quot; alt=&quot;博客图片&quot;&gt;&lt;/p&gt;
     
     </summary>
     
