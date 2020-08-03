@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://io.ices.fun/"/>
-  <updated>2020-08-02T09:32:35.021Z</updated>
+  <updated>2020-08-03T05:41:32.250Z</updated>
   <id>http://io.ices.fun/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="http://io.ices.fun/2020/08/02/imgAddTest/"/>
     <id>http://io.ices.fun/2020/08/02/imgAddTest/</id>
     <published>2020-08-02T03:24:14.000Z</published>
-    <updated>2020-08-02T09:32:35.021Z</updated>
+    <updated>2020-08-03T05:41:32.250Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;这是我的第一篇博客-，其实在这之前我还创建过一个博客，不过觉得那个博客不好，感觉不是那么的好看和实用另一个博客。&quot;&gt;&lt;a href=&quot;#这是我的第一篇博客-，其实在这之前我还创建过一个博客，不过觉得那个博客不好，感觉不是那么的好看和实用另一个博客。&quot; class=&quot;headerlink&quot; title=&quot;这是我的第一篇博客 ，其实在这之前我还创建过一个博客，不过觉得那个博客不好，感觉不是那么的好看和实用另一个博客。&quot;&gt;&lt;/a&gt;这是我的第一篇博客 ，其实在这之前我还创建过一个博客，不过觉得那个博客不好，感觉不是那么的好看和实用&lt;a href=&quot;http://m.ices.fun/&quot;&gt;另一个博客&lt;/a&gt;。&lt;/h2&gt;&lt;p&gt;关于我第一次搭建的时候发现插入图片的时候不能正常显示，我就百度了很多，但是大都解决不了我的问题，后来我还是找到问题的原因，并记录下来。&lt;/p&gt;
+      &lt;h1 id=&quot;关于我第一次搭建的时候发现插入图片的时候不能正常显示，我就百度了很多，但是大都解决不了我的问题，后来我还是找到问题的原因，并记录下来。&quot;&gt;&lt;a href=&quot;#关于我第一次搭建的时候发现插入图片的时候不能正常显示，我就百度了很多，但是大都解决不了我的问题，后来我还是找到问题的原因，并记录下来。&quot; class=&quot;headerlink&quot; title=&quot;关于我第一次搭建的时候发现插入图片的时候不能正常显示，我就百度了很多，但是大都解决不了我的问题，后来我还是找到问题的原因，并记录下来。&quot;&gt;&lt;/a&gt;关于我第一次搭建的时候发现插入图片的时候不能正常显示，我就百度了很多，但是大都解决不了我的问题，后来我还是找到问题的原因，并记录下来。&lt;/h1&gt;
     
     </summary>
     
@@ -34,6 +34,8 @@
     
     
       <category term="hexo" scheme="http://io.ices.fun/tags/hexo/"/>
+    
+      <category term="图片" scheme="http://io.ices.fun/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
