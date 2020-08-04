@@ -5,9 +5,9 @@
   <subtitle>谦虚不是把自己想得很糟，而是完全不想自己。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://io.ices.fun/"/>
+  <link href="http://co.ices.fun/"/>
   <updated>2020-08-04T02:35:39.302Z</updated>
-  <id>http://io.ices.fun/</id>
+  <id>http://co.ices.fun/</id>
   
   <author>
     <name>Yi Bin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>navicat-for-mysql破解</title>
-    <link href="http://io.ices.fun/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/"/>
-    <id>http://io.ices.fun/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/</id>
+    <link href="http://co.ices.fun/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://co.ices.fun/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/</id>
     <published>2020-08-04T02:11:38.000Z</published>
     <updated>2020-08-04T02:35:39.302Z</updated>
     
@@ -30,19 +30,19 @@
     </summary>
     
     
-      <category term="mysql" scheme="http://io.ices.fun/categories/mysql/"/>
+      <category term="mysql" scheme="http://co.ices.fun/categories/mysql/"/>
     
     
-      <category term="破解" scheme="http://io.ices.fun/tags/%E7%A0%B4%E8%A7%A3/"/>
+      <category term="破解" scheme="http://co.ices.fun/tags/%E7%A0%B4%E8%A7%A3/"/>
     
-      <category term="mysql" scheme="http://io.ices.fun/tags/mysql/"/>
+      <category term="mysql" scheme="http://co.ices.fun/tags/mysql/"/>
     
   </entry>
   
   <entry>
     <title>hexo不能正常显示图片</title>
-    <link href="http://io.ices.fun/2020/08/02/imgAddTest/"/>
-    <id>http://io.ices.fun/2020/08/02/imgAddTest/</id>
+    <link href="http://co.ices.fun/2020/08/02/imgAddTest/"/>
+    <id>http://co.ices.fun/2020/08/02/imgAddTest/</id>
     <published>2020-08-02T03:24:14.000Z</published>
     <updated>2020-08-03T05:41:32.250Z</updated>
     
@@ -53,12 +53,12 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://io.ices.fun/categories/hexo/"/>
+      <category term="hexo" scheme="http://co.ices.fun/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://io.ices.fun/tags/hexo/"/>
+      <category term="hexo" scheme="http://co.ices.fun/tags/hexo/"/>
     
-      <category term="图片" scheme="http://io.ices.fun/tags/%E5%9B%BE%E7%89%87/"/>
+      <category term="图片" scheme="http://co.ices.fun/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
