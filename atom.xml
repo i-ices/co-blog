@@ -35,11 +35,11 @@
       <category term="java" scheme="http://co.ices.fun/categories/java/"/>
     
     
-      <category term="list" scheme="http://co.ices.fun/tags/list/"/>
-    
       <category term="java" scheme="http://co.ices.fun/tags/java/"/>
     
       <category term="集合" scheme="http://co.ices.fun/tags/%E9%9B%86%E5%90%88/"/>
+    
+      <category term="list" scheme="http://co.ices.fun/tags/list/"/>
     
   </entry>
   
