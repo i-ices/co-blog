@@ -1,12 +1,11 @@
 "use strict";
-let util;
+var util;
 (function (util) {
     // -----------------------------------------------------------------------------
     // 随机数
-    util.Random = (function () {
+    var Random = /** @class */ (function () {
         function Random() {
         }
-
         /**
          * 返回随机的float 左闭右开
          * @param max 最大值
@@ -32,17 +31,20 @@ let util;
          */
         Random.color = function (opacity) {
             opacity = typeof opacity === "number" ? opacity : undefined;
-            const body = Random.int(null, 255) + ',' + Random.int(null, 255) + ',' + Random.int(null, 255);
+            var body = Random.int(null, 255) + ',' + Random.int(null, 255) + ',' + Random.int(null, 255);
             return isNotEmpty(opacity) ? 'rgba(' + body + ',' + opacity + ')' : 'rgb(' + body + ')';
         };
         return Random;
     }());
+    util.Random = Random;
     // -----------------------------------------------------------------------------
     // -----------------------------------------------------------------------------
-    util.Time = (function () {
+    /**
+     * 时间类
+     */
+    var Time = /** @class */ (function () {
         function Time() {
         }
-
         /**
          * 开始计时
          */
@@ -59,8 +61,8 @@ let util;
          * 格式化时间
          */
         Time.formatMS = function (time) {
-            const m = Math.floor(time / 1000 / 60 % 60);
-            const s = Math.floor(time / 1000 % 60);
+            var m = Math.floor(time / 1000 / 60 % 60);
+            var s = Math.floor(time / 1000 % 60);
             return Time.zeroes(m) + ':' + Time.zeroes(s);
         };
         /**
@@ -68,10 +70,11 @@ let util;
          * @param num
          */
         Time.zeroes = function (num) {
-            return (String(num).length === 1 ? '0' : '') + num;
+            return (String(num).length == 1 ? '0' : '') + num;
         };
         return Time;
     }());
+    util.Time = Time;
     // -----------------------------------------------------------------------------
     // -----------------------------------------------------------------------------
     /**
@@ -80,9 +83,9 @@ let util;
      * @param {*} delay 节流时间,毫秒
      */
     util.throttle = function (func, delay) {
-        let timer = null;
+        var timer = null;
         return function () {
-            const _this = this;
+            var _this = this;
             if (!timer) {
                 timer = setTimeout(function () {
                     // @ts-ignore
@@ -99,9 +102,9 @@ let util;
      * @param {*} wait 防抖时间,毫秒
      */
     util.debounce = function (fn, wait) {
-        let timeout = null;
+        var timeout = null;
         return function () {
-            const _this = this;
+            var _this = this;
             if (timeout !== null)
                 clearTimeout(timeout); // 如果多次触发将上次记录延迟清除掉
             timeout = setTimeout(function () {
@@ -126,8 +129,8 @@ function isNotEmpty(value) {
 }
 // -----------------------------------------------------------------------------
 // -----------------------------------------------------------------------------
-//暴露外部的引用
-let utils;
+//暴露外部的引用..
+var utils;
 utils = window.$ = function (selector) {
     // @ts-ignore
     return new utils.fn.init(selector);

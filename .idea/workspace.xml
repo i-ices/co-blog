@@ -21,7 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="82295753-9d95-425d-954b-99ce57eead23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bind/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +65,15 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
     <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="F:\WebStorm\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT\GitHub\i-ices.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\桌面\js_utils\src" />
       <recent name="D:\桌面\js_utils" />
@@ -119,12 +128,18 @@
       <workItem from="1606114341047" duration="1751000" />
       <workItem from="1606142101400" duration="483000" />
       <workItem from="1606180388873" duration="888000" />
-      <workItem from="1606181845481" duration="1813000" />
+      <workItem from="1606181845481" duration="1826000" />
+      <workItem from="1606186218617" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/util.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -146,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="111" width="1099" height="915" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605956251882">
@@ -156,26 +172,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="172" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1605947699621" />
-    <state x="624" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605956197385">
+    <state x="624" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606186299934">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="624" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605956197385" />
-    <state width="1894" height="263" key="GridCell.Tab.0.bottom" timestamp="1606182067372">
+    <state x="624" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606186299934" />
+    <state width="1894" height="263" key="GridCell.Tab.0.bottom" timestamp="1606184496675">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1894" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
-    <state width="1894" height="263" key="GridCell.Tab.0.center" timestamp="1606182067372">
+    <state width="1894" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606184496675" />
+    <state width="1894" height="263" key="GridCell.Tab.0.center" timestamp="1606184496674">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1894" height="263" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
-    <state width="1894" height="263" key="GridCell.Tab.0.left" timestamp="1606182067372">
+    <state width="1894" height="263" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606184496674" />
+    <state width="1894" height="263" key="GridCell.Tab.0.left" timestamp="1606184496674">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1894" height="263" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
-    <state width="1894" height="263" key="GridCell.Tab.0.right" timestamp="1606182067372">
+    <state width="1894" height="263" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606184496674" />
+    <state width="1894" height="263" key="GridCell.Tab.0.right" timestamp="1606184496675">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1894" height="263" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
+    <state width="1894" height="263" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606184496675" />
     <state width="1894" height="263" key="GridCell.Tab.1.bottom" timestamp="1605985262151">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
