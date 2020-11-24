@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82295753-9d95-425d-954b-99ce57eead23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kabWvM51iZB3bQpTkRsYpLzzhn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="F:\WebStorm\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\js_utils\src" />
+      <recent name="D:\桌面\js_utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js_utils/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="util.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/util.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="util.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="util.js" working-dir="$PROJECT_DIR$/bind">
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.util.js" />
+      <item itemvalue="npm.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.util.js" />
+        <item itemvalue="Node.js.util.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82295753-9d95-425d-954b-99ce57eead23" name="Default Changelist" comment="" />
+      <created>1605941685046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605941685046</updated>
+      <workItem from="1605941686153" duration="23686000" />
+      <workItem from="1605970006826" duration="7686000" />
+      <workItem from="1605977746686" duration="7510000" />
+      <workItem from="1606014475410" duration="4309000" />
+      <workItem from="1606114341047" duration="1751000" />
+      <workItem from="1606142101400" duration="483000" />
+      <workItem from="1606180388873" duration="888000" />
+      <workItem from="1606181845481" duration="1813000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="111" width="1099" height="915" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605956251882">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="410" y="111" width="1099" height="915" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605956251882" />
+    <state x="718" y="172" key="#com.intellij.ide.util.MemberChooser" timestamp="1605947699621">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="718" y="172" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1605947699621" />
+    <state x="624" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605956197385">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="624" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605956197385" />
+    <state width="1894" height="263" key="GridCell.Tab.0.bottom" timestamp="1606182067372">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
+    <state width="1894" height="263" key="GridCell.Tab.0.center" timestamp="1606182067372">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
+    <state width="1894" height="263" key="GridCell.Tab.0.left" timestamp="1606182067372">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
+    <state width="1894" height="263" key="GridCell.Tab.0.right" timestamp="1606182067372">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606182067372" />
+    <state width="1894" height="263" key="GridCell.Tab.1.bottom" timestamp="1605985262151">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605985262151" />
+    <state width="1894" height="263" key="GridCell.Tab.1.center" timestamp="1605985262150">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605985262150" />
+    <state width="1894" height="263" key="GridCell.Tab.1.left" timestamp="1605985262150">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605985262150" />
+    <state width="1894" height="263" key="GridCell.Tab.1.right" timestamp="1605985262151">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1894" height="263" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605985262151" />
+    <state x="437" y="197" key="IDE.errors.dialog" timestamp="1606182097474">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="437" y="197" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606182097474" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1606183056836">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606183056836" />
+    <state x="664" y="226" key="refactoring.ChangeSignatureDialog" timestamp="1605954358677">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="664" y="226" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605954358677" />
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1605960248196">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605960248196" />
+  </component>
+</project>
