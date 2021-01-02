@@ -30,44 +30,6 @@
       </tags>
   </entry>
   <entry>
-    <title>maven项目添加自定义jar包</title>
-    <url>/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/</url>
-    <content><![CDATA[<hr>
-<h2 id="添加自定义jar包放入本地的maven仓库"><a href="#添加自定义jar包放入本地的maven仓库" class="headerlink" title="添加自定义jar包放入本地的maven仓库"></a><center>添加自定义jar包放入本地的maven仓库</center></h2><p><img src="http://4seldh.coding-pages.com/13.jpg"></p>
-<a id="more"></a>
-
-<h4 id="1-第一步：导出自定义jar包"><a href="#1-第一步：导出自定义jar包" class="headerlink" title="1. 第一步：导出自定义jar包"></a>1. 第一步：导出自定义jar包</h4><p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/01.png"></p>
-<ol>
-<li><strong>选择 File -&gt;</strong> <strong>Project Structure</strong> </li>
-<li><strong>在弹出的窗口中左侧选中”Artifacts”，点击”+”选择jar，然后选择”from modules with dependencies”。</strong></li>
-<li><strong>如果没有main方法的话就直接点ok，如果有就需要选中</strong></li>
-</ol>
-<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/02.png"></p>
-<ol start="4">
-<li><p><strong>回到IDEA的主菜单，选择“Build - Build Artifacts”下的“Build”或者“Rebuild”即可生成最终的可运行的jar.</strong></p>
-<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/03.png" style="zoom:67%;"><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/04.png"><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/05.png" style="zoom:80%;"></p>
-</li>
-</ol>
-<h4 id="2-第二步：打开cmd窗口-运行以下命令"><a href="#2-第二步：打开cmd窗口-运行以下命令" class="headerlink" title="2. 第二步：打开cmd窗口 运行以下命令"></a>2. 第二步：打开cmd窗口 运行以下命令</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mvn install:install-file </span><br><span class="line">    -Dfile&#x3D;jar文件所在路径（这里使用绝对路径） </span><br><span class="line">    -DgroupId&#x3D;照着项目的pom文件抄</span><br><span class="line">    -DartifactId&#x3D;照着项目的pom文件抄</span><br><span class="line">    -Dversion&#x3D;版本号  </span><br><span class="line">    -Dpackaging&#x3D;jar</span><br></pre></td></tr></table></figure>
-
-<p><strong>第三行和第四行照着项目pom文件里面抄就行</strong></p>
-<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/06.png"></p>
-<p>例子：mvn install:install-file -Dfile=F:\alipay.jar -DgroupId=aliyun -DartifactId=alipay -Dversion=1.0 -Dpackaging=jar</p>
-<p><strong>执行成功截图</strong></p>
-<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/07.png"></p>
-<h4 id="3-执行后就能在本地仓库中看到jar包了，然后就去maven中导入"><a href="#3-执行后就能在本地仓库中看到jar包了，然后就去maven中导入" class="headerlink" title="3. 执行后就能在本地仓库中看到jar包了，然后就去maven中导入"></a>3. 执行后就能在本地仓库中看到jar包了，然后就去maven中导入</h4><p>跟往常一样导入就行</p>
-<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/08.png"></p>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>maven</tag>
-        <tag>jar</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>navicat-for-mysql破解</title>
     <url>/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/</url>
     <content><![CDATA[<h2 id="破解navicat-for-mysql中文版，无需激活码"><a href="#破解navicat-for-mysql中文版，无需激活码" class="headerlink" title="破解navicat for mysql中文版，无需激活码"></a><center>破解navicat for mysql中文版，无需激活码</center></h2><p><img src="http://4seldh.coding-pages.com/71.jpg"></p>
@@ -106,6 +68,44 @@
       </tags>
   </entry>
   <entry>
+    <title>maven项目添加自定义jar包</title>
+    <url>/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/</url>
+    <content><![CDATA[<hr>
+<h2 id="添加自定义jar包放入本地的maven仓库"><a href="#添加自定义jar包放入本地的maven仓库" class="headerlink" title="添加自定义jar包放入本地的maven仓库"></a><center>添加自定义jar包放入本地的maven仓库</center></h2><p><img src="http://4seldh.coding-pages.com/13.jpg"></p>
+<a id="more"></a>
+
+<h4 id="1-第一步：导出自定义jar包"><a href="#1-第一步：导出自定义jar包" class="headerlink" title="1. 第一步：导出自定义jar包"></a>1. 第一步：导出自定义jar包</h4><p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/01.png"></p>
+<ol>
+<li><strong>选择 File -&gt;</strong> <strong>Project Structure</strong> </li>
+<li><strong>在弹出的窗口中左侧选中”Artifacts”，点击”+”选择jar，然后选择”from modules with dependencies”。</strong></li>
+<li><strong>如果没有main方法的话就直接点ok，如果有就需要选中</strong></li>
+</ol>
+<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/02.png"></p>
+<ol start="4">
+<li><p><strong>回到IDEA的主菜单，选择“Build - Build Artifacts”下的“Build”或者“Rebuild”即可生成最终的可运行的jar.</strong></p>
+<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/03.png" style="zoom:67%;"><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/04.png"><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/05.png" style="zoom:80%;"></p>
+</li>
+</ol>
+<h4 id="2-第二步：打开cmd窗口-运行以下命令"><a href="#2-第二步：打开cmd窗口-运行以下命令" class="headerlink" title="2. 第二步：打开cmd窗口 运行以下命令"></a>2. 第二步：打开cmd窗口 运行以下命令</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mvn install:install-file </span><br><span class="line">    -Dfile&#x3D;jar文件所在路径（这里使用绝对路径） </span><br><span class="line">    -DgroupId&#x3D;照着项目的pom文件抄</span><br><span class="line">    -DartifactId&#x3D;照着项目的pom文件抄</span><br><span class="line">    -Dversion&#x3D;版本号  </span><br><span class="line">    -Dpackaging&#x3D;jar</span><br></pre></td></tr></table></figure>
+
+<p><strong>第三行和第四行照着项目pom文件里面抄就行</strong></p>
+<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/06.png"></p>
+<p>例子：mvn install:install-file -Dfile=F:\alipay.jar -DgroupId=aliyun -DartifactId=alipay -Dversion=1.0 -Dpackaging=jar</p>
+<p><strong>执行成功截图</strong></p>
+<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/07.png"></p>
+<h4 id="3-执行后就能在本地仓库中看到jar包了，然后就去maven中导入"><a href="#3-执行后就能在本地仓库中看到jar包了，然后就去maven中导入" class="headerlink" title="3. 执行后就能在本地仓库中看到jar包了，然后就去maven中导入"></a>3. 执行后就能在本地仓库中看到jar包了，然后就去maven中导入</h4><p>跟往常一样导入就行</p>
+<p><img src="/2020/08/15/maven%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89jar%E5%8C%85/08.png"></p>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>maven</tag>
+        <tag>jar</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>配置tomcat环境</title>
     <url>/2020/11/19/%E9%85%8D%E7%BD%AEtomcat%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<h2 id="配置tomcat环境变量，亲测可用"><a href="#配置tomcat环境变量，亲测可用" class="headerlink" title="配置tomcat环境变量，亲测可用"></a><center>配置tomcat环境变量，亲测可用</center></h2><p><img src="http://4seldh.coding-pages.com/70.jpg"></p>
@@ -137,6 +137,7 @@
 </ol>
 <p><img src="/2020/11/19/%E9%85%8D%E7%BD%AEtomcat%E7%8E%AF%E5%A2%83/01.png" alt="JDK的环境配置"></p>
 <p><img src="/2020/11/19/%E9%85%8D%E7%BD%AEtomcat%E7%8E%AF%E5%A2%83/02.png" alt="JDK的安装目录"></p>
+<p>在Path下添加一条记录 <strong>%JAVA_HOME%\bin</strong></p>
 <p>如图，按照上图一样配置好环境变量即可</p>
 <hr>
 <ol start="4">
