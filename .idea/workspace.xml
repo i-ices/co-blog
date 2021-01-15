@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82295753-9d95-425d-954b-99ce57eead23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/load.js" afterDir="false" />
+    <list default="true" id="82295753-9d95-425d-954b-99ce57eead23" name="Default Changelist" comment="add load&#10;js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,8 +141,17 @@
       <workItem from="1606311097008" duration="1552000" />
       <workItem from="1606355671118" duration="321000" />
       <workItem from="1606959184919" duration="8000" />
-      <workItem from="1610679249790" duration="352000" />
+      <workItem from="1610679249790" duration="403000" />
+      <workItem from="1610680181852" duration="627000" />
     </task>
+    <task id="LOCAL-00001" summary="add load&#10;js">
+      <created>1610679631497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610679631497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +183,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add load&#10;js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add load&#10;js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="111" width="1099" height="915" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605956251882">
@@ -222,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="197" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606182097474" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1606188998246">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1610679634083">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606188998246" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1610679634083" />
     <state x="664" y="226" key="refactoring.ChangeSignatureDialog" timestamp="1605954358677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

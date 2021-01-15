@@ -1,4 +1,4 @@
-;!(function () {
+let chaoXing = function () {
     const timeout = prompt("设置刷新时间间隔[S]");
     // 获取当前的URL
     const current = location.href;
@@ -20,4 +20,4 @@
         // 时间间隔不大于0，仅刷新一次
         location.replace(current);
     }
-})();
+}
