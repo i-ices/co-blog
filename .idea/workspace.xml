@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82295753-9d95-425d-954b-99ce57eead23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/load.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -68,12 +69,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT\GitHub\i-ices.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\桌面\js_utils\src" />
       <recent name="D:\桌面\js_utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GIT\GitHub\i-ices.github.io" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -133,7 +134,12 @@
       <workItem from="1606181845481" duration="1826000" />
       <workItem from="1606186218617" duration="774000" />
       <workItem from="1606187024426" duration="1757000" />
-      <workItem from="1606188948171" duration="153000" />
+      <workItem from="1606188948171" duration="295000" />
+      <workItem from="1606221154344" duration="8000" />
+      <workItem from="1606311097008" duration="1552000" />
+      <workItem from="1606355671118" duration="321000" />
+      <workItem from="1606959184919" duration="8000" />
+      <workItem from="1610679249790" duration="352000" />
     </task>
     <servers />
   </component>
