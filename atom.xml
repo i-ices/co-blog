@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://co.ices.fun/"/>
-  <updated>2021-01-02T10:03:29.620Z</updated>
+  <updated>2021-01-17T13:33:30.971Z</updated>
   <id>http://co.ices.fun/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习通访问次数</title>
+    <link href="http://co.ices.fun/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/"/>
+    <id>http://co.ices.fun/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/</id>
+    <published>2021-01-17T12:59:43.000Z</published>
+    <updated>2021-01-17T13:33:30.971Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="学习通访问次数"><a href="#学习通访问次数" class="headerlink" title="学习通访问次数"></a><center>学习通访问次数</center></h2><p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/01.jpg"></p><a id="more"></a><hr><hr><ol><li><p>首先登录学习通并在需要刷访问次数的地方按F12或者右键检查打开控制台，切换到console</p><p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/02.jpg" alt="image-20210117212802789"></p></li><li><p>复制这一串代码放到console内回车</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> script = <span class="built_in">document</span>.createElement(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line">script.src = <span class="string">&#x27;https://eclipse23.gitee.io/chao-xing/load-min.js&#x27;</span>;</span><br><span class="line">script.onload = script.onreadystatechange = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!script.readyState || <span class="regexp">/loaded|complete/</span>.test(script.readyState)) &#123;</span><br><span class="line">        script.onload = script.onreadystatechange = <span class="literal">null</span>;</span><br><span class="line">        chaoXing();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">document</span>.querySelector(<span class="string">&#x27;head&#x27;</span>).appendChild(script);</span><br></pre></td></tr></table></figure><p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/03.jpg" alt="image-20210117213136627"></p></li><li><p>然后就会有一个提示，意思就是多久刷新一次，单位为秒，个人建议五秒以上，然后就可以放到那里不用管了，想要停止可以直接刷新当前页就行了</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;学习通访问次数&quot;&gt;&lt;a href=&quot;#学习通访问次数&quot; class=&quot;headerlink&quot; title=&quot;学习通访问次数&quot;&gt;&lt;/a&gt;&lt;center&gt;学习通访问次数&lt;/center&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/01.jpg&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="学习通" scheme="http://co.ices.fun/categories/%E5%AD%A6%E4%B9%A0%E9%80%9A/"/>
+    
+    
+      <category term="学习通" scheme="http://co.ices.fun/tags/%E5%AD%A6%E4%B9%A0%E9%80%9A/"/>
+    
+      <category term="JS" scheme="http://co.ices.fun/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>配置tomcat环境</title>
