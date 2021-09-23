@@ -68,6 +68,73 @@
       </tags>
   </entry>
   <entry>
+    <title>navicat-for-mysql破解</title>
+    <url>/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/</url>
+    <content><![CDATA[<h2 id="破解navicat-for-mysql中文版，无需激活码"><a href="#破解navicat-for-mysql中文版，无需激活码" class="headerlink" title="破解navicat for mysql中文版，无需激活码"></a><center>破解navicat for mysql中文版，无需激活码</center></h2><p><img src="http://4seldh.coding-pages.com/71.jpg"></p>
+<a id="more"></a>
+
+<ol>
+<li><strong>首先下载破解版的navicat for mysql</strong><br><a href="https://i-ices.lanzoui.com/iZJWAp9i23c">下载地址</a> <br>
+</li>
+</ol>
+<hr>
+<ol start="2">
+<li><strong>解压后文件夹下面有两个文件</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/01.png" alt="文件"><br>选择第一个按照正常流程安装<br>
+</li>
+</ol>
+<hr>
+<ol start="3">
+<li><strong>安装完成后点击第二个</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/02.png" alt="第二个"><br>
+</li>
+</ol>
+<hr>
+<ol start="4">
+<li><strong>点开后会让你选择安装好的exe文件</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/03.png" alt="选择安装路径下的exe文件"><br>选择刚刚安装的navicat for mysql 安装的目录下面的exe文件<br>
+</li>
+</ol>
+<hr>
+<ol start="5">
+<li><strong>出现了下面这个提示就表示成功破解</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/04.png" alt="提示"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>mysql</category>
+      </categories>
+      <tags>
+        <tag>破解</tag>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习通访问次数</title>
+    <url>/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/</url>
+    <content><![CDATA[<h2 id="学习通访问次数"><a href="#学习通访问次数" class="headerlink" title="学习通访问次数"></a><center>学习通访问次数</center></h2><p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/01.jpg"></p>
+<a id="more"></a>
+
+<hr>
+<hr>
+<ol>
+<li><p>首先登录学习通并在需要刷访问次数的地方按F12或者右键检查打开控制台，切换到console</p>
+<p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/02.jpg" alt="image-20210117212802789"></p>
+</li>
+<li><p>复制这一串代码放到console内回车</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> script = <span class="built_in">document</span>.createElement(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line">script.src = <span class="string">&#x27;https://eclipse23.gitee.io/chao-xing/load-min.js&#x27;</span>;</span><br><span class="line">script.onload = script.onreadystatechange = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!script.readyState || <span class="regexp">/loaded|complete/</span>.test(script.readyState)) &#123;</span><br><span class="line">        script.onload = script.onreadystatechange = <span class="literal">null</span>;</span><br><span class="line">        chaoXing();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">document</span>.querySelector(<span class="string">&#x27;head&#x27;</span>).appendChild(script);</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/03.jpg" alt="image-20210117213136627"></p>
+</li>
+<li><p>然后就会有一个提示，意思就是多久刷新一次，单位为秒，个人建议五秒以上，然后就可以放到那里不用管了，想要停止可以直接刷新当前页就行了</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习通</category>
+      </categories>
+      <tags>
+        <tag>学习通</tag>
+        <tag>JS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图床</title>
     <url>/2021/01/31/%E5%9B%BE%E5%BA%8A/</url>
     <content><![CDATA[<h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a><center>图床</center></h2><p><img src="https://gitee.com/Eclipse23/imgs/raw/master/image/2021_01_31/1612035042517-b1a26436.png"></p>
@@ -146,73 +213,6 @@
       <tags>
         <tag>tomcat</tag>
         <tag>环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习通访问次数</title>
-    <url>/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/</url>
-    <content><![CDATA[<h2 id="学习通访问次数"><a href="#学习通访问次数" class="headerlink" title="学习通访问次数"></a><center>学习通访问次数</center></h2><p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/01.jpg"></p>
-<a id="more"></a>
-
-<hr>
-<hr>
-<ol>
-<li><p>首先登录学习通并在需要刷访问次数的地方按F12或者右键检查打开控制台，切换到console</p>
-<p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/02.jpg" alt="image-20210117212802789"></p>
-</li>
-<li><p>复制这一串代码放到console内回车</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> script = <span class="built_in">document</span>.createElement(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line">script.src = <span class="string">&#x27;https://eclipse23.gitee.io/chao-xing/load-min.js&#x27;</span>;</span><br><span class="line">script.onload = script.onreadystatechange = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!script.readyState || <span class="regexp">/loaded|complete/</span>.test(script.readyState)) &#123;</span><br><span class="line">        script.onload = script.onreadystatechange = <span class="literal">null</span>;</span><br><span class="line">        chaoXing();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">document</span>.querySelector(<span class="string">&#x27;head&#x27;</span>).appendChild(script);</span><br></pre></td></tr></table></figure>
-
-<p><img src="/2021/01/17/%E5%AD%A6%E4%B9%A0%E9%80%9A%E8%AE%BF%E9%97%AE%E6%AC%A1%E6%95%B0/03.jpg" alt="image-20210117213136627"></p>
-</li>
-<li><p>然后就会有一个提示，意思就是多久刷新一次，单位为秒，个人建议五秒以上，然后就可以放到那里不用管了，想要停止可以直接刷新当前页就行了</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习通</category>
-      </categories>
-      <tags>
-        <tag>学习通</tag>
-        <tag>JS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>navicat-for-mysql破解</title>
-    <url>/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/</url>
-    <content><![CDATA[<h2 id="破解navicat-for-mysql中文版，无需激活码"><a href="#破解navicat-for-mysql中文版，无需激活码" class="headerlink" title="破解navicat for mysql中文版，无需激活码"></a><center>破解navicat for mysql中文版，无需激活码</center></h2><p><img src="http://4seldh.coding-pages.com/71.jpg"></p>
-<a id="more"></a>
-
-<ol>
-<li><strong>首先下载破解版的navicat for mysql</strong><br><a href="https://i-ices.lanzoui.com/iZJWAp9i23c">下载地址</a> <br>
-</li>
-</ol>
-<hr>
-<ol start="2">
-<li><strong>解压后文件夹下面有两个文件</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/01.png" alt="文件"><br>选择第一个按照正常流程安装<br>
-</li>
-</ol>
-<hr>
-<ol start="3">
-<li><strong>安装完成后点击第二个</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/02.png" alt="第二个"><br>
-</li>
-</ol>
-<hr>
-<ol start="4">
-<li><strong>点开后会让你选择安装好的exe文件</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/03.png" alt="选择安装路径下的exe文件"><br>选择刚刚安装的navicat for mysql 安装的目录下面的exe文件<br>
-</li>
-</ol>
-<hr>
-<ol start="5">
-<li><strong>出现了下面这个提示就表示成功破解</strong><br><img src="/2020/08/04/navicat-for-mysql%E7%A0%B4%E8%A7%A3/04.png" alt="提示"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>mysql</category>
-      </categories>
-      <tags>
-        <tag>破解</tag>
-        <tag>mysql</tag>
       </tags>
   </entry>
 </search>
